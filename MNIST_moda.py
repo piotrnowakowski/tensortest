@@ -53,7 +53,7 @@ print("The code run for {}".format(datetime.datetime.now() - begin))
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 predictions = probability_model.predict(test_images)
 
-
+#bla bla mordo
 def plot_image(i, predictions_array, true_label, img):
     true_label, img = true_label[i], img[i]
     plt.grid(False)
